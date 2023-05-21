@@ -1,0 +1,4 @@
+rootProject.name = 'KavyaBookstoreTransact'
+include 'client:services'
+findProject(':client:services')?.name = 'services'
+
